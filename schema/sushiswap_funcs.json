@@ -1,0 +1,13 @@
+{ 
+  "contractCall.methodName": [ 
+            "swapETHForExactTokens", 
+            "swapExactETHForTokens", 
+            "swapExactETHForTokensSupportingFeeOnTransferTokens",
+            "swapExactTokensForETH", 
+            "swapExactTokensForETHSupportingFeeOnTransferTokens",
+            "swapExactTokensForTokens", 
+            "swapExactTokensForTokensSupportingFeeOnTransferTokens", 
+            "swapTokensForExactETH",
+            "swapTokensForExactTokens"
+  ] 
+}
