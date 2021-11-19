@@ -17,10 +17,11 @@ maxPriorityFeePerGas= 2.5 Gwei
   maxPriorityFeePerGas = BigNumber.from("2500000000");
 ```
 
+- Miner Bribe = maxPriorityFeePerGas * 1.00175
+- Miner Fees: (original transaction gas fee) + **[ Miner Tip (bribe) ]**
+- User Eligible Rebate: (original transaction gas fee / 80% Confidence Gas Level )
+- Sushi Payouts =  **[ Miner Tip (bribe) ]** + **[User Eligible Rebate]**
 
-- Miner Fees: (original transaction gas fee) + ** [ Miner Tip (bribe) ] ** 1:0
-- User Rebate: (original transaction gas fee / 80% Confidence Gas Level )
-- OpenMEV Payouts =  ** [ Miner Tip (bribe) ] ** + User Rebate
 
 
 
