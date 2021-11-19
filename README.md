@@ -6,7 +6,23 @@
 
 ![](assets/sushi-tx-1.svg)
 
-- Miner Fees: (original transaction gas fee) + Miner Tip (bribe)
+
+### Assumptions 
+
+maxPriorityFeePerGas= 2.5 Gwei
+
+> See Appendix 1 for how this is calculated
+
+```js
+  maxPriorityFeePerGas = BigNumber.from("2500000000");
+```
+
+
+- Miner Fees: (original transaction gas fee) + ** [ Miner Tip (bribe) ] ** 1:0
+- User Rebate: (original transaction gas fee / 80% Confidence Gas Level )
+- OpenMEV Payouts =  ** [ Miner Tip (bribe) ] ** + User Rebate
+
+
 
 - Gas Rebate Normalized Total Cost: 
 
@@ -48,3 +64,7 @@ Number of items we estimate will be included in next block based on mempool snap
   ] 
 }
 ```
+
+
+## Appendix 1
+[see hackmd]
