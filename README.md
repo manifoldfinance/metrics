@@ -1,6 +1,9 @@
 # metrics
 > Dune Analytics / Google BigQuery SQL Queries for OpenMEV/Sushi Relay
 
+[https://dune.xyz/manifold/Manifold-Finance](https://dune.xyz/manifold/Manifold-Finance)
+
+
 ## Anatomy of a Gas Rebate
 
 
