@@ -3,6 +3,10 @@
 
 [https://dune.xyz/manifold/Manifold-Finance](https://dune.xyz/manifold/Manifold-Finance)
 
+## Arb Volume
+
+[https://dune.xyz/embeds/17821/36015/52b2257a-31b2-493e-be35-373313c1a39c](https://dune.xyz/embeds/17821/36015/52b2257a-31b2-493e-be35-373313c1a39c)
+
 
 ## Anatomy of a Gas Rebate
 
