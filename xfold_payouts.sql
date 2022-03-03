@@ -1,10 +1,8 @@
 -- xFold payout for period 2022-01-15 (inclusive) to 2021-02-15 (exclusive)
 -- Calculates a TWAP for Xfold staked with hourly granularity. Outputs ratio of staking reward per address
 -- 
--- TODO: 
--- 1. include total_xfold_hours as part of the query, instead of out-of-band (it's calculated using the same query but without the `group by address` all the way at the end)
--- 2. possibly do granularity by minute instead of hour
--- 3. Dune parameters
+-- Author: @geert 
+-- 
 
 -- SELECT
 --     SUM(ratio) -- check adds up to 1. CHECK (0.9999999999998469 due to rounding)
